@@ -11,6 +11,7 @@
 		ACADAE5C296C989000FBF8EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE5B296C989000FBF8EB /* ContentView.swift */; };
 		ACADAE5E296C989300FBF8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE5D296C989300FBF8EB /* Assets.xcassets */; };
 		ACADAE61296C989300FBF8EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE60296C989300FBF8EB /* Preview Assets.xcassets */; };
+		ACADAE68296C999700FBF8EB /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE67296C999700FBF8EB /* ColorCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		ACADAE5B296C989000FBF8EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACADAE5D296C989300FBF8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACADAE60296C989300FBF8EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACADAE67296C999700FBF8EB /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				ACADAE59296C989000FBF8EB /* swiftbook_4_1_traffic_lightApp.swift */,
 				ACADAE5B296C989000FBF8EB /* ContentView.swift */,
+				ACADAE67296C999700FBF8EB /* ColorCircleView.swift */,
 				ACADAE5D296C989300FBF8EB /* Assets.xcassets */,
 				ACADAE5F296C989300FBF8EB /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACADAE68296C999700FBF8EB /* ColorCircleView.swift in Sources */,
 				ACADAE5C296C989000FBF8EB /* ContentView.swift in Sources */,
 				ACADAE5A296C989000FBF8EB /* swiftbook_4_1_traffic_lightApp.swift in Sources */,
 			);
