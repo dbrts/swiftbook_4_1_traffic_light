@@ -13,22 +13,6 @@ struct TrafficLightView: View {
     @State private var yellowLight = 0.5
     @State private var greenLight = 0.5
     
-    var body: some View {
-        VStack {
-            ColorCircleView(color: .red, opacity: redLight)
-                .padding(.bottom, 16)
-            ColorCircleView(color: .yellow, opacity: yellowLight)
-                .padding(.bottom, 16)
-            ColorCircleView(color: .green, opacity: greenLight)
-            Spacer()
-            Button(action: buttonDidTapped) {
-                Text(buttonText)
-                    .font(.title)
-            }
-        }
-        .padding()
-    }
-    
     private func buttonDidTapped() {
         if buttonText == "START" {
             buttonText = "NEXT"
@@ -43,6 +27,22 @@ struct TrafficLightView: View {
             greenLight = 0.5
             redLight = 1
         }
+    }
+    
+    var body: some View {
+        VStack {
+            ColorCircleView(color: .red, opacity: redLight)
+                .padding(.bottom, 16)
+            ColorCircleView(color: .yellow, opacity: yellowLight)
+                .padding(.bottom, 16)
+            ColorCircleView(color: .green, opacity: greenLight)
+            Spacer()
+            Button(action: buttonDidTapped) {
+                Text(buttonText)
+                    .font(.title)
+            }
+        }
+        .padding()
     }
 
 }
