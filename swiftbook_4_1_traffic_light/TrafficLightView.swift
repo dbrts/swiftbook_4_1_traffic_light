@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TrafficLightView: View {
     @State private var buttonText = "START"
     @State private var redLight = 0.5
     @State private var yellowLight = 0.5
@@ -49,6 +49,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TrafficLightView()
     }
 }
